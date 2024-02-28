@@ -1,0 +1,20 @@
+:root {
+  --backColor: darkgreen;
+  --textColor: rebeccapurple;
+  --fontS: 20px;
+}
+
+h1 {
+  user-select: all;
+  background-color: var(--backColor, red);
+  color: var(--textColor);
+}
+
+p {
+  font-size: var(--fontS, 20px);
+  color: var(--textColor);
+}
+
+body {
+  background-color: antiquewhite;
+}
