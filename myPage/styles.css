@@ -16,6 +16,9 @@ p, pre {
   font-size: var(--fontS, 20px);
   color: var(--textColor);
   background-color: var(--backColor, black);
+
+  writing-mode: vertical-rl;
+  text-orientation: upright;
 }
 
 body {
